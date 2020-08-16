@@ -19,6 +19,7 @@
 3. cargo run --package cmd --bin tikv-server
 
 ## PD编译运行
+![https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/PD运行出错.png](https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/PD运行出错.png)
 
 1. git clone [git@github.com](mailto:git@github.com):pingcap/pd.git
 2. PD直接编译运行是不行的，会报有些文件找不到定义
@@ -33,7 +34,7 @@
 1. 3个都编译完后，运行TiKV、PD、TiDB
 2. 发现Pd 没有TiDB连接，使用Dashboard也是登录不了(账号是root，密码为空)
 3. 到TiDB 的config目录修改config.go文件下的默认配置，把Store改为tikv，Path改为PD的地址，再次运行TiKV、PD、TiDB，3者成功可以连接
-
+![https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/config文件修改.png](https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/config文件修改.png)
 
 ## 修改源码
 
