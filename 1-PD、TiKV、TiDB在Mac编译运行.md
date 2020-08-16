@@ -38,4 +38,4 @@
 ## 修改源码
 
 在TiDB项目中，修改tidb/store/tikv/2pc.go的execute方法，重新编译运行，可以看到执行事务后，打印了这行日志
-![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60b31b68-4841-4051-908e-3ecf251fdebd/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/60b31b68-4841-4051-908e-3ecf251fdebd/Untitled.png)
+![https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/%E4%BF%AE%E6%94%B9%E6%BA%90%E7%A0%81.png](https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/%E4%BF%AE%E6%94%B9%E6%BA%90%E7%A0%81.png)
