@@ -19,7 +19,7 @@
 3. cargo run --package cmd --bin tikv-server
 
 ## PD编译运行
-![https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/PD运行出错.png](https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/PD运行出错.png)
+![https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/PD%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99.png](https://github.com/wuxiaohui94/High-Performance-TiDB/blob/master/img/PD%E8%BF%90%E8%A1%8C%E6%8A%A5%E9%94%99.png)
 
 1. git clone [git@github.com](mailto:git@github.com):pingcap/pd.git
 2. PD直接编译运行是不行的，会报有些文件找不到定义
